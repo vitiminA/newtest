@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<style>
+    .header {
+        background-color: #A7D9C6;
+    }
+
+    .container {
+        max-width: 80%;
+        margin: auto;
+
+    }
+
+    .cot {
+        display: flex;
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+
+    .cot1 {
+        width: 20%;
+
+    }
+
+    .cot1 img {
+        padding: 5px;
+        height: 130px;
+        width: 130px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .cot2 {
+        width: 80%;
+    }
+
+    .hang1,.hang2 {
+        width: 100%;
+    }
+
+    .hang1 {
+        height: 50%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .hang1 input {
+        border-radius: 30px;
+        margin-top: 10px;
+        padding-left: 5px;
+        height: 30px;
+        width: 200px;
+    }
+
+    .hang2 ul {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item_link {
+
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    /* -----------content */
+    .content {
+        background-color: #F2D5D5
+        ;
+    }
+
+    .main_content_1 {
+        height: 300px;
+        display: flex;
+    }
+
+
+    .dat1 , .dat2{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dat1 {
+        display: flex , block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 30%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    .squa{
+        position: absolute;  
+
+    }
+    .squa a{
+        color: #A7D9C6;
+        text-decoration: none;
+        text-align: center;
+    }
+    .squa img{
+        max-width: 200px;
+        max-height: 200px;
+        width: 200px;
+        height: 200px;
+        object-fit: inherit;
+    }
+    
+    .squa h3{
+        -webkit-text-stroke: 1px black; /* Viền đen dày 1px */
+    }
+    .dat2 {
+        width: 70%;
+        height: 100%;
+        border: 1px solid black;
+    }
+
+    /* footer */
+    .footer{
+        background-color: aquamarine;
+        display: flex;
+    }
+    .footer_right a{
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        position: relative;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    .footer_right img{
+        position: absolute;
+        width: 100px;
+        height: auto;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="cot">
+                <div class="cot1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRon8Zvy4yUaAMoI0v-HPpZvBUF2bRRlL0oM3v4616cIA&s"
+                        alt="">
+                </div>
+                <div class="cot2">
+                    <div class="hang1">
+                        <input type="text" placeholder="tim kiem">
+                    </div>
+                    <div class="hang2">
+                        <ul class="items">
+                            <li class="item"> <a href="#" class="item_link">phim bon tan</a></li>
+                            <li class="item"> <a href="#" class="item_link">hanh dong</a></li>
+                            <li class="item"> <a href="#" class="item_link">tinh cam</a></li>
+                            <li class="item"> <a href="#" class="item_link">dich vu</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="main_content_1">
+                <div class="dat1">
+                    <div class="squa">
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrIQzlf640yaqd5mp0AhFNpZA0mEx1_mG3Q&usqp=CAU" alt="">
+                            <h3>Màu Hồng</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="dat2">
+                    <div class="squa">
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrIQzlf640yaqd5mp0AhFNpZA0mEx1_mG3Q&usqp=CAU" alt="">
+                            <h3>Màu Hồng</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- hangf 2 -->
+        <div class="container">
+            <div class="main_content_1">
+                <div class="dat1">
+                    <div class="squa">
+                        <!-- thay đổi ảnh và mmauf chữ-->
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrIQzlf640yaqd5mp0AhFNpZA0mEx1_mG3Q&usqp=CAU" alt="">
+                            <h3>Màu Hồng</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="dat2">
+                    <div class="squa">
+                        <!-- thay đổi ảnh và mmauf chữ-->
+                        <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrIQzlf640yaqd5mp0AhFNpZA0mEx1_mG3Q&usqp=CAU" alt="">
+                            <h3>Màu Hồng</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- footer -->
+    <div class="footer">
+        <div class="footer_content">
+            <!-- footer right -->
+            <div class="footer_right">
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li>
+                        <a href="">Về chúng tôi</a>
+                    </li>
+                </ul>
+                <a href="" class="logo_phone"><img src="https://aphoto.vn/wp-content/uploads/2019/02/anh-sang-trong-nhiep-anh.jpg" alt=""></a>
+            </div>
+            <!-- footer botom -->
+            <div class="footer_bootom"></div>
+        </div> 
+    </div>
+</body>
+
+</html>

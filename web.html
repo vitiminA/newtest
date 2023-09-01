@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        
+        .header{
+            display: grid;
+            grid-template-columns: 124px 1000px;
+            gap: 100px 5px;
+            justify-content: center;
+            
+        }
+
+        .colrow{
+            background-color: rgb(140, 140, 237);
+        }
+        .col2{
+            display: grid;
+            grid-template-rows: 62px auto;
+            gap: 5px;
+        }
+        .row{
+            background-color: aquamarine;
+        }
+        .row1{
+            display:flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .row1 input{
+            width: 200px;
+            height: 20px;
+        }
+        .row2{
+            display: flex;
+            grid-template-columns:auto auto auto auto;
+            gap: 10px;
+            justify-content: space-around;
+        }
+        .row2 a{
+            text-decoration: none; /* Loại bỏ gạch chân */
+            color: inherit; /* Kế thừa màu chữ từ phần tử cha */
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+            <div class="colrow col1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTCo1TbRW7d865KLxtZMRNYynC8GP4ysb3RQJnGEw&s" alt="netflix">
+            </div>
+            <div class="colrow col2">
+                <div class="colrow row row1">
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+                <div class="colrow row row2">
+                    <a href="#"><h4>phim bom tấn</h4></a>
+                    <a href="#"><h4>phim lẻ</h4></a>
+                    <a href="#"><h4>phim truyền hình</h4></a>
+                    <a href="#"><h4>dịch vụ</h4></a>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
